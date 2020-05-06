@@ -1,0 +1,14 @@
+{% extends 'layout.html' %}
+{% block style %}
+  <link rel='stylesheet' href="{{ url_for('static', filename='css/create_account.css')}}">
+{% endblock %}
+{% block content %}
+  <div class='create_account'>
+    <h1>Create a new account</h1>
+    <form action="{{ url_for('apply_created_account')}}" method='post'>
+      <input type='text' name='new_username' placeholder='Username'>
+      <input type='password' name='new_user_password' placeholder='Password'>
+      <button>Create</button>
+    </form>
+  </div>
+{% endblock %}

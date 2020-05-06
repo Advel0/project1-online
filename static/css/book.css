@@ -1,0 +1,74 @@
+html{
+  background-color: #C5CDD9;
+}
+.page{
+  background-color: #DFC1AF;
+  border: 2px solid grey;
+  margin: 5% 10% 0 10%;
+  min-height: 70%;
+}
+.main h1{
+  margin: 5px;
+  text-align: center;
+  font-size: 50px;
+  border-bottom: 2px dotted grey;
+}
+.main ul{
+  margin-left: 5%;
+  font-size: 30px;
+  height: 200px;
+}
+.comments{
+  border-top: 2px solid grey;
+}
+.comments form{
+
+  padding: 2% 0 0 3%;
+  border-bottom: 1px solid black;
+}
+.comments form input{
+  min-height: 50px;
+  min-width: 200px;
+}
+.comments h3{
+  margin: 0px;
+  text-align: center;
+  border-bottom: 2px solid grey;
+  background-color: #D8A688;
+}
+.single_com{
+  background-color: #EEE2CB;
+  border: 2px solid grey;
+  border-bottom: None;
+  margin: 0% 15% 0 5%;
+  padding: 1%;
+}
+.single_com p{
+  border-bottom: 1px solid #96C4EB;
+  text-align: center;
+  font-size: 25px;
+}
+.comments h4{
+  color: #D2ECE8;
+  text-shadow: 2px 2px 2px black;
+  margin: 1% 0% 0% 5%;
+}
+.single_com div{
+  padding: 1% 2% 0 2% ;
+}
+.mark p{
+  display: inline;
+  border: 1px solid black;
+  margin: 0 4% 0 0;
+}
+.mark{
+  width:auto;
+}
+.mark span{
+  color:green;
+}
+.single_com span{
+  color: pink;
+  text-shadow: 1px 1px 1px black;
+  text-align: center;
+}

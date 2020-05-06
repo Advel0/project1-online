@@ -1,0 +1,14 @@
+{% extends 'layout.html'%}
+{% block style %}
+  <link rel='stylesheet' href="{{ url_for('static', filename='css/finded_books.css') }}">
+{% endblock %}
+{% block content %}
+  <div class='container'>
+    <h1>List of Finded Books:</h1>
+    <ol>
+      {% for book in  books  %}
+      <li><a href="{{ url_for('book', book_id=book.id, id=id)}}">{{book.title}}</a></li>
+      {% endfor %}
+    </ol>
+  </div>
+{% endblock %}

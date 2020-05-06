@@ -1,0 +1,32 @@
+html{
+  background-color: #C5CDD9;
+  font-size: 40px;
+}
+form{
+  border: 3px solid grey;
+  width:80%;
+  height: 55%;
+  margin:10% 10% 0 10%;
+  background-color:#CAC5D9;
+}
+.log-in{
+}
+.log-in input{
+  font-size: 120%;
+  width: 40%;
+  height: 15%;
+  margin: 5% 30% 0 30%;
+  background-color: #D9D4C5;
+}
+.log-in button{
+  width:25%;
+  margin: 5% 37.5% 0 37.5%;
+  height: 10%;
+  font-size: 80%;
+  background-color:#C5D1D9;
+}
+.link{
+  margin:1% 35% 5% 35%;
+  width:30%;
+  text-align: center;
+}

@@ -1,0 +1,18 @@
+{% extends 'layout.html' %}
+{% block style %}
+<link rel='stylesheet' href="{{ url_for('static', filename='css/search.css')}}">
+{% endblock %}
+{% block content %}
+  <div class='container'>
+
+    <form action="{{url_for('find_book', id=id)}}" method='post'>
+      <div class='tips'>To find book you can enter book name, book author or isbn book number</div>
+      <div class='search'>
+        <input name='book_name' placeholder='Enter your request' size="40" type='text'>
+      </div>
+      <div class='search'>
+        <button>Search</button>
+      </div>
+    </form>
+  </div>
+{% endblock %}
